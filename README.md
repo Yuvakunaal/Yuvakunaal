@@ -90,6 +90,16 @@ Staged Git Diff → CommitAI → Ollama API → Gemma 4 → AI Commit Message �
 
 ---
 
+### 🎨 Kunaal's Illustrations *(Open Source · Released)*
+
+An **open source Agent Skill** that guides AI agents to generate clean, bizarre, hand-drawn in-text illustrations for English articles and knowledge content. Not a generic image prompt — a full visual language system with defined character IPs (Reference Boy & Girl), style DNA, composition patterns, and QA rules. Built for writers, knowledge creators, and AI-powered content workflows.
+
+**Key highlights:** Wide-composition hand-drawn illustrations · Pure white background, sparse red/orange/blue annotations · Reference Boy & Girl character IPs · Works with Antigravity + Gemini · Git-cloneable Agent Skill · Shot list planning + single image generation modes
+
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github)](https://github.com/Yuvakunaal/kunaal-illustrations)
+
+---
+
 ## 🧠 Core Technical Strengths
 
 ### 💻 Programming & Backend Engineering
@@ -131,6 +141,7 @@ Staged Git Diff → CommitAI → Ollama API → Gemma 4 → AI Commit Message �
 | **Habit Ink** | Minimal habit tracking SaaS — clarity-first design, real daily consistency | SaaS · Full-Stack | 🟢 Live |
 | **AI Flowchart Studio** | Text → diagrams via Gemini AI + 4-stage multi-agent pipeline. Export PNG/SVG/Mermaid | FastAPI · Gemini · Mermaid.js · SSE | 🟢 Live |
 | **CommitAI** | Local AI Git assistant — staged diffs → Conventional Commits, changelogs, PR descriptions | Python · Ollama · Gemma 4 · Rich | 🏅 dev.to Badge |
+| **Kunaal's Illustrations** | Open source Agent Skill — guides AI to generate hand-drawn in-text illustrations with consistent style and character IPs | Agent Skill · Gemini · Antigravity | 🟢 Open Source |
 | **Query Forge AI** | Production NL→SQL engine with schema-aware prompting | FastAPI · MySQL · Mistral | ✅ Complete |
 | **AnalyzeQuestion** | AI-driven coding pattern detection via RAG pipeline | RAG · LLM · Python | ✅ Complete |
 | **ERP Academic Intelligence Engine** | Automated ETL + OCR system — saves 8+ hours weekly | ETL · OCR · Python | ✅ Complete |
