@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0f172a,30:312e81,70:4f46e5,100:06b6d4&text=Boggavarapu%20Yuva%20Satya%20Kunaal&fontColor=ffffff&fontSize=42&fontAlignY=38&desc=Engineer%20%E2%80%A2%20Founder%20of%20SQLumina%20%E2%80%A2%20Building%20Production-Grade%20Systems&descColor=e2e8f0&descSize=18&animation=fadeIn" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0f172a,30:312e81,70:4f46e5,100:06b6d4&text=Boggavarapu%20Yuva%20Satya%20Kunaal&fontColor=ffffff&fontSize=42&fontAlignY=38&animation=fadeIn" />
 
 </div>
 
@@ -28,11 +28,9 @@
 
 ## 💫 Who I Am
 
-I'm **Boggavarapu Yuva Satya Kunaal** — a **B.E. AI & Data Science graduate from CBIT** with a **9.16 CGPA**, and the person behind the brand **"Player 457"**.
+I'm **Boggavarapu Yuva Satya Kunaal** — a **B.E. AI & Data Science graduate from CBIT** with a **9.16 CGPA**.
 
-The identity is deliberate. An arena mindset. Competitive. Systems-oriented. Built for hard problems and real impact.
-
-I don't prototype and move on. I **design, build, ship, and own** end-to-end systems — from AI pipelines and data engineering to fully deployed SaaS products with real users. Over the last year, I evolved from building strong technical projects to **founding and launching products** people actually use.
+I don't prototype and move on. I **design, build, ship, and own** end-to-end systems — from AI pipelines and data engineering to fully deployed SaaS products with real users. Over the last year, I have focused on turning ideas into practical, production-ready products.
 
 > **From engineer → to founder. From builder → to shipper.**
 
@@ -42,7 +40,7 @@ I don't prototype and move on. I **design, build, ship, and own** end-to-end sys
 
 ### 🏛️ Founder — SQLumina *(Deployed · Pre-Launch)*
 
-My most ambitious product yet. **SQLumina is a large-scale SQL learning SaaS platform** — designed from the ground up to be the definitive place where people go to master SQL. Not just a query tool, not just a cheatsheet — a full structured learning ecosystem. Schema-aware lessons, practice environments, progressive challenges, and intelligent guidance, all wrapped in a production-grade SaaS architecture. Deployed. Launch incoming.
+My most ambitious product yet. **SQLumina is a large-scale SQL learning SaaS platform** — designed from the ground up to be the definitive place where people go to master SQL. Not just a query tool, but a complete learning environment.
 
 ---
 
@@ -57,14 +55,14 @@ A **minimal, intentional habit tracking SaaS** built for people who want clarity
 
 ### 🔀 AI Flowchart Studio *(Launched)*
 
-A **production-ready AI diagram generator** that turns plain English descriptions into structured flowcharts, workflow diagrams, and system design visuals — powered by Gemini AI and a **4-stage Multi-Agent Orchestration pipeline**:
+A **production-ready AI diagram generator** that turns plain English descriptions into structured flowcharts, workflow diagrams, and system design visuals — powered by Gemini AI and a **4-stage Multi-Agent pipeline**.
 
 - **Orchestrator Agent** → validates if the prompt can be visualized as a flowchart
 - **Logic Parser Agent** → decomposes text into a structured JSON graph of Nodes & Edges
 - **Generator Agent** → converts the graph into optimized Mermaid.js syntax
 - **Syntax Validator** → catches rendering anomalies before output reaches the browser
 
-**Key highlights:** BYOK (Bring Your Own Key) privacy architecture · SSE real-time streaming pipeline status · 50-step undo/redo engine · Export to PNG (3x super-scaled), SVG, or Mermaid code · Dark/Light/Forest/Neutral themes · Mobile-first with bottom-sheet menus · Multi-project management (up to 5 concurrent projects in LocalStorage) · Zero server data retention
+**Key highlights:** BYOK (Bring Your Own Key) privacy architecture · SSE real-time streaming pipeline status · 50-step undo/redo engine · Export to PNG (3x super-scaled), SVG, or Mermaid code · Dark/Light theming
 
 **Stack:** FastAPI (Python) · Gemini AI SDK · Vanilla JS (ES6+) · Mermaid.js · html2canvas · Glassmorphic CSS3 · Vercel (frontend) · Render/Gunicorn+Uvicorn (backend)
 
@@ -75,9 +73,9 @@ A **production-ready AI diagram generator** that turns plain English description
 
 ### ⚡ CommitAI *(dev.to Gemma 4 Challenge — Badge Earned ✅)*
 
-A **local-first AI Git assistant** that eliminates the most repetitive part of every developer's workflow — writing commit messages. CommitAI reads your staged diff, sends a focused prompt to Ollama, normalizes the output into a clean **Conventional Commit** format, writes the `CHANGELOG.md` entry, and completes the git workflow — all on your machine, zero cloud, zero API keys.
+A **local-first AI Git assistant** that eliminates the most repetitive part of every developer's workflow — writing commit messages. CommitAI reads your staged diff, sends a focused prompt to Ollama, and generates clean Conventional Commit messages.
 
-**Key highlights:** AI-generated Conventional Commit messages · Automatic changelog generation · PR description generation (`--pr` flag) · `prepare-commit-msg` git hook integration · Multi-model support via `--model` flag · Rich terminal UI · `--no-confirm` fast path · Offline-first, privacy-friendly · No external APIs · Runs on 8GB RAM
+**Key highlights:** AI-generated Conventional Commit messages · Automatic changelog generation · PR description generation (`--pr` flag) · `prepare-commit-msg` git hook integration · Multi-model support
 
 **Stack:** Python 3.13+ · Ollama · Gemma 4 (`gemma4:e2b`) · Rich · Git hooks
 
@@ -92,9 +90,9 @@ Staged Git Diff → CommitAI → Ollama API → Gemma 4 → AI Commit Message �
 
 ### 🎨 Kunaal's Illustrations *(Open Source · Released)*
 
-An **open source Agent Skill** that guides AI agents to generate clean, bizarre, hand-drawn in-text illustrations for English articles and knowledge content. Not a generic image prompt — a full visual language system with defined character IPs (Reference Boy & Girl), style DNA, composition patterns, and QA rules. Built for writers, knowledge creators, and AI-powered content workflows.
+An **open source Agent Skill** that guides AI agents to generate clean, bizarre, hand-drawn in-text illustrations for English articles and knowledge content. Not a generic image prompt — a full visual instruction system.
 
-**Key highlights:** Wide-composition hand-drawn illustrations · Pure white background, sparse red/orange/blue annotations · Reference Boy & Girl character IPs · Works with Antigravity + Gemini · Git-cloneable Agent Skill · Shot list planning + single image generation modes
+**Key highlights:** Wide-composition hand-drawn illustrations · Pure white background, sparse red/orange/blue annotations · Reference Boy & Girl character IPs · Works with Antigravity + Gemini · Designed for readability and style consistency
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github)](https://github.com/Yuvakunaal/kunaal-illustrations)
 
@@ -141,7 +139,7 @@ An **open source Agent Skill** that guides AI agents to generate clean, bizarre,
 | **Habit Ink** | Minimal habit tracking SaaS — clarity-first design, real daily consistency | SaaS · Full-Stack | 🟢 Live |
 | **AI Flowchart Studio** | Text → diagrams via Gemini AI + 4-stage multi-agent pipeline. Export PNG/SVG/Mermaid | FastAPI · Gemini · Mermaid.js · SSE | 🟢 Live |
 | **CommitAI** | Local AI Git assistant — staged diffs → Conventional Commits, changelogs, PR descriptions | Python · Ollama · Gemma 4 · Rich | 🏅 dev.to Badge |
-| **Kunaal's Illustrations** | Open source Agent Skill — guides AI to generate hand-drawn in-text illustrations with consistent style and character IPs | Agent Skill · Gemini · Antigravity | 🟢 Open Source |
+| **Kunaal's Illustrations** | Open source Agent Skill — guides AI to generate hand-drawn in-text illustrations with consistent style and character IPs | Agent Skill · Gemini · Antigravity | 🟢 Released |
 | **Query Forge AI** | Production NL→SQL engine with schema-aware prompting | FastAPI · MySQL · Mistral | ✅ Complete |
 | **AnalyzeQuestion** | AI-driven coding pattern detection via RAG pipeline | RAG · LLM · Python | ✅ Complete |
 | **ERP Academic Intelligence Engine** | Automated ETL + OCR system — saves 8+ hours weekly | ETL · OCR · Python | ✅ Complete |
@@ -272,7 +270,7 @@ An **open source Agent Skill** that guides AI agents to generate clean, bizarre,
 
 <div align="center">
 
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical&quote=Perfection%20is%20achieved%20not%20when%20there%20is%20nothing%20more%20to%20add,%20but%20when%20there%20is%20nothing%20left%20to%20take%20away.&author=Antoine%20de%20Saint-Exup%C3%A9ry)
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical&quote=Perfection%20is%20achieved%20not%20when%20there%20is%20nothing%20more%20to%20add,%20but%20when%20there%20is%20nothing%20left%20to%20take%20away.)
 
 </div>
 
@@ -282,6 +280,6 @@ An **open source Agent Skill** that guides AI agents to generate clean, bizarre,
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=6366f1,8b5cf6,06b6d4&height=100&section=footer" />
 
-**Player 457** · Building real systems. Shipping real products. Making real impact.
+**Boggavarapu Yuva Satya Kunaal** · Building real systems. Shipping real products. Making real impact.
 
 </div>
