@@ -44,6 +44,20 @@ My most ambitious product yet. **SQLumina is a large-scale SQL learning SaaS pla
 
 ---
 
+### 🎙️ AI Interview SDK *(Open Source · Published on npm)*
+
+An **open-source TypeScript/React SDK** for embedding AI-scored interviews directly into your own product as a single component — your backend, your API keys, your database, end to end. The maintainers never see, store, or process a single candidate's answer.
+
+**Key highlights:** One component, two modes — `client` for instant prototyping, `server` for production · Dynamic, depth-limited follow-up engine that scales difficulty to the candidate · HMAC-signed evaluation scores that can be verified, not just trusted · Interview Simulator & Bias/Consistency Harness for fairness testing before real candidates · Five provider adapters (OpenAI, Claude, Gemini, Deepgram, ElevenLabs) with automatic failover · Session persistence with `persistKey` and a typed event stream · Opt-in integrity signals (tab-switch/paste counts) — no webcam or emotion tracking
+
+**Stack:** TypeScript · React · Node.js · OpenAI/Claude/Gemini/Deepgram/ElevenLabs adapters · Next.js examples · pnpm monorepo · CLI + local dashboard
+
+[![Live App](https://img.shields.io/badge/Live_App-6366f1?style=flat-square)](https://ai-interview-sdk.vercel.app)
+[![npm](https://img.shields.io/badge/npm-CB3837?style=flat-square&logo=npm&logoColor=white)](https://www.npmjs.com/org/interview-sdk)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github)](https://github.com/Yuvakunaal/ai-interview-sdk)
+
+---
+
 ### 📓 Habit Ink *(Recently Launched)*
 
 A **minimal, intentional habit tracking SaaS** built for people who want clarity over clutter. No noise, no gamification gimmicks — just a clean daily rhythm that actually sticks. Live and growing.
@@ -136,6 +150,7 @@ An **open source Agent Skill** that guides AI agents to generate clean, bizarre,
 | Project | What It Does | Stack Highlights | Status |
 |---|---|---|---|
 | **SQLumina** | Large-scale SQL learning SaaS platform — structured lessons, practice environments, progressive challenges | SaaS · Full-Stack | 🟡 Deployed · Pre-Launch |
+| **AI Interview SDK** | Open-source SDK for embedding AI-scored, rubric-based interviews into any app — client & server modes, fairness testing built in | TypeScript · React · OpenAI/Claude/Gemini/Deepgram/ElevenLabs | 🟢 Published on npm |
 | **Habit Ink** | Minimal habit tracking SaaS — clarity-first design, real daily consistency | SaaS · Full-Stack | 🟢 Live |
 | **AI Flowchart Studio** | Text → diagrams via Gemini AI + 4-stage multi-agent pipeline. Export PNG/SVG/Mermaid | FastAPI · Gemini · Mermaid.js · SSE | 🟢 Live |
 | **CommitAI** | Local AI Git assistant — staged diffs → Conventional Commits, changelogs, PR descriptions | Python · Ollama · Gemma 4 · Rich | 🏅 dev.to Badge |
