@@ -67,6 +67,27 @@ A **minimal, intentional habit tracking SaaS** built for people who want clarity
 
 ---
 
+## 🌍 Open Source Contributions
+
+### ⚡ Agenta — Open-Source Contributor
+
+Contributed to **[Agenta](https://github.com/Agenta-AI/agenta)**, an open-source platform for building and evaluating LLM applications.
+
+My contribution focused on strengthening API reliability through **regression and acceptance test coverage** for the mounts file/archive endpoints.
+
+**Contribution highlights:**
+- Added regression coverage for `mtime` behavior
+- Added acceptance coverage for mounts file/archive API endpoints
+- Worked through maintainer and CodeRabbit review feedback
+- Contribution reviewed and merged into the `release/v0.106.1` branch
+- Officially recognized in Agenta's **All Contributors** list
+
+[![Merged PR](https://img.shields.io/badge/PR_%235455-Merged-8957e5?style=flat-square&logo=github)](https://github.com/Agenta-AI/agenta/pull/5455)
+[![Agenta](https://img.shields.io/badge/Agenta-Contributor-6366f1?style=flat-square&logo=github)](https://github.com/Agenta-AI/agenta)
+[![Contribution](https://img.shields.io/badge/Contribution-Tests-success?style=flat-square)](https://github.com/Agenta-AI/agenta#contributors-)
+
+---
+
 ### 🔀 AI Flowchart Studio *(Launched)*
 
 A **production-ready AI diagram generator** that turns plain English descriptions into structured flowcharts, workflow diagrams, and system design visuals — powered by Gemini AI and a **4-stage Multi-Agent pipeline**.
