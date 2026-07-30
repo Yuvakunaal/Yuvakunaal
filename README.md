@@ -44,6 +44,21 @@ My most ambitious product yet. **SQLumina is a large-scale SQL learning SaaS pla
 
 ---
 
+### 🔎 Repository File Count *(Launched)*
+
+A **browser-based GitHub repository analysis tool** that turns any public repository into an instant, structured overview — without cloning the repo, installing anything, or running a single local command.
+
+Beyond file counting, it provides a complete snapshot of how a repository is structured and maintained.
+
+**Key highlights:** Full recursive repository file analysis · Code vs. non-code classification · Breakdown by file extension · Config/dotfile filtering · Large-tree truncation detection · Repository health snapshot · Full pull request history with progressive loading · PR velocity metrics including median merge time, merge rate & average open-PR age · GitHub-style PR search qualifiers (`is:open`, `is:merged`, `author:`, `label:`) · Markdown export · GitHub API usage tracking · Fully client-side architecture — GitHub tokens never leave the user's device
+
+**Stack:** TanStack Start · TypeScript · React · Tailwind CSS · GitHub REST API
+
+[![Live App](https://img.shields.io/badge/Live_App-6366f1?style=flat-square)](https://repo-file-count.vercel.app/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github)](https://github.com/Yuvakunaal/repo-count-pro)
+
+---
+
 ### 🎙️ AI Interview SDK *(Open Source · Published on npm)*
 
 An **open-source TypeScript/React SDK** for embedding AI-scored interviews directly into your own product as a single component — your backend, your API keys, your database, end to end. The maintainers never see, store, or process a single candidate's answer.
@@ -65,26 +80,6 @@ A **minimal, intentional habit tracking SaaS** built for people who want clarity
 [![Live App](https://img.shields.io/badge/Live_App-6366f1?style=flat-square)](https://habitink.vercel.app/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github)](https://github.com/Yuvakunaal/Habit-ink)
 
----
-
-## 🌍 Open Source Contributions
-
-### ⚡ Agenta — Open-Source Contributor
-
-Contributed to **[Agenta](https://github.com/Agenta-AI/agenta)**, an open-source platform for building and evaluating LLM applications.
-
-My contribution focused on strengthening API reliability through **regression and acceptance test coverage** for the mounts file/archive endpoints.
-
-**Contribution highlights:**
-- Added regression coverage for `mtime` behavior
-- Added acceptance coverage for mounts file/archive API endpoints
-- Worked through maintainer and CodeRabbit review feedback
-- Contribution reviewed and merged into the `release/v0.106.1` branch
-- Officially recognized in Agenta's **All Contributors** list
-
-[![Merged PR](https://img.shields.io/badge/PR_%235455-Merged-8957e5?style=flat-square&logo=github)](https://github.com/Agenta-AI/agenta/pull/5455)
-[![Agenta](https://img.shields.io/badge/Agenta-Contributor-6366f1?style=flat-square&logo=github)](https://github.com/Agenta-AI/agenta)
-[![Contribution](https://img.shields.io/badge/Contribution-Tests-success?style=flat-square)](https://github.com/Agenta-AI/agenta#contributors-)
 
 ---
 
@@ -133,6 +128,27 @@ An **open source Agent Skill** that guides AI agents to generate clean, bizarre,
 
 ---
 
+## 🌍 Open Source Contributions
+
+### ⚡ Agenta — Open-Source Contributor
+
+Contributed to **[Agenta](https://github.com/Agenta-AI/agenta)**, an open-source platform for building and evaluating LLM applications.
+
+My contribution focused on strengthening API reliability through **regression and acceptance test coverage** for the mounts file/archive endpoints.
+
+**Contribution highlights:**
+- Added regression coverage for `mtime` behavior
+- Added acceptance coverage for mounts file/archive API endpoints
+- Worked through maintainer and CodeRabbit review feedback
+- Contribution reviewed and merged into the `release/v0.106.1` branch
+- Officially recognized in Agenta's **All Contributors** list
+
+[![Merged PR](https://img.shields.io/badge/PR_%235455-Merged-8957e5?style=flat-square&logo=github)](https://github.com/Agenta-AI/agenta/pull/5455)
+[![Agenta](https://img.shields.io/badge/Agenta-Contributor-6366f1?style=flat-square&logo=github)](https://github.com/Agenta-AI/agenta)
+[![Contribution](https://img.shields.io/badge/Contribution-Tests-success?style=flat-square)](https://github.com/Agenta-AI/agenta#contributors-)
+
+---
+
 ## 🧠 Core Technical Strengths
 
 ### 💻 Programming & Backend Engineering
@@ -171,6 +187,7 @@ An **open source Agent Skill** that guides AI agents to generate clean, bizarre,
 | Project | What It Does | Stack Highlights | Status |
 |---|---|---|---|
 | **SQLumina** | Large-scale SQL learning SaaS platform — structured lessons, practice environments, progressive challenges | SaaS · Full-Stack | 🟡 Deployed · Pre-Launch |
+| **Repository File Count** | Browser-based GitHub repository analyzer — file composition, code/non-code breakdown, repo health, PR analytics & search | TanStack Start · TypeScript · React · Tailwind CSS · GitHub API | 🟢 Live |
 | **AI Interview SDK** | Open-source SDK for embedding AI-scored, rubric-based interviews into any app — client & server modes, fairness testing built in | TypeScript · React · OpenAI/Claude/Gemini/Deepgram/ElevenLabs | 🟢 Published on npm |
 | **Habit Ink** | Minimal habit tracking SaaS — clarity-first design, real daily consistency | SaaS · Full-Stack | 🟢 Live |
 | **AI Flowchart Studio** | Text → diagrams via Gemini AI + 4-stage multi-agent pipeline. Export PNG/SVG/Mermaid | FastAPI · Gemini · Mermaid.js · SSE | 🟢 Live |
