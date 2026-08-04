@@ -202,6 +202,38 @@ My contribution focused on strengthening API reliability through **regression an
 
 ---
 
+## 📄 Publication
+
+**GodForge: A Hybrid Multi-agent Framework for Execution-Driven Workflow Automation in Visual Studio Code**
+Yuva Satya Kunaal Boggavarapu
+📚 *Intelligent Strategies for ICT* — ICTCS 2025, Springer LNNS, vol. 1983 (2026), pp. 369–386
+
+[![DOI](https://img.shields.io/badge/DOI-10.1007%2F978--3--032--31119--1__35-blue)](https://doi.org/10.1007/978-3-032-31119-1_35)
+
+> GodForge closes the "suggestion-only" gap in AI coding tools by turning LLMs from passive assistants into accountable executors. It pairs deterministic logic for structural tasks (file edits, Git operations, commits) with narrowly-scoped LLM use, and adds a cross-agent, snapshot-based undo system so every AI-driven action stays reversible — built as a native VS Code extension for real developer workflows.
+
+**Keywords:** Hybrid execution model · Multi-agent systems · LLM assistance · IDE integration · Undo safety mechanisms · Workflow automation
+
+<details>
+<summary>📖 BibTeX</summary>
+
+\`\`\`bibtex
+@incollection{boggavarapu2026godforge,
+  title     = {GodForge: A Hybrid Multi-agent Framework for Execution-Driven Workflow Automation in Visual Studio Code},
+  author    = {Boggavarapu, Yuva Satya Kunaal},
+  booktitle = {Intelligent Strategies for ICT},
+  series    = {Lecture Notes in Networks and Systems},
+  volume    = {1983},
+  pages     = {369--386},
+  year      = {2026},
+  publisher = {Springer, Cham},
+  doi       = {10.1007/978-3-032-31119-1_35}
+}
+\`\`\`
+</details>
+
+---
+
 ## 🏆 Competitive & Professional Credentials
 
 - 🎓 **B.E. AI & Data Science — CBIT** · Final CGPA: **9.16 / 10**
