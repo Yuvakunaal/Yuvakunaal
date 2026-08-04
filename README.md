@@ -217,7 +217,7 @@ Yuva Satya Kunaal Boggavarapu
 <details>
 <summary>📖 BibTeX</summary>
 
-\`\`\`bibtex
+```bibtex
 @incollection{boggavarapu2026godforge,
   title     = {GodForge: A Hybrid Multi-agent Framework for Execution-Driven Workflow Automation in Visual Studio Code},
   author    = {Boggavarapu, Yuva Satya Kunaal},
@@ -229,7 +229,7 @@ Yuva Satya Kunaal Boggavarapu
   publisher = {Springer, Cham},
   doi       = {10.1007/978-3-032-31119-1_35}
 }
-\`\`\`
+```
 </details>
 
 ---
