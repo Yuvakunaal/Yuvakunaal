@@ -189,7 +189,8 @@ My contribution focused on strengthening API reliability through **regression an
 
 ### 📊 Data, Analytics & Automation
 - **Data Analysis** — Pandas, NumPy, Matplotlib, business insight extraction, pattern detection
-- **Data Engineering** — ETL pipelines, OCR-driven data extraction, end-to-end automated workflows
+- **Snowflake** — Cloud data warehousing, SQL-driven analytics and scalable data workloads
+- **Data Engineering** — ETL/ELT pipelines, data warehousing, OCR-driven data extraction, end-to-end automated workflows
 - **Automation Systems** — Certificate generation, attendance monitoring, HR workflows, Make.com
 
 ### 🏗️ SaaS & Product Building
