@@ -44,6 +44,24 @@ My most ambitious product yet. **SQLumina is a large-scale SQL learning SaaS pla
 
 ---
 
+### 🔒 Local AI Interviewer *(Open Source · Released · v2.0.2)*
+
+A **private, local-first mock interview app for tech roles** — the AI runs on your own computer through Ollama, so no account, no API key, no telemetry, and your answers never leave the machine. It asks questions aloud, listens to your typed or spoken answer, asks a follow-up when one is worth asking, and ends with a scored report that explains every mark.
+
+**Key highlights:** Evidence-checked grading — the grader must quote your own words for every mistake it claims, and an unquotable claim is shown as unverified and never counted against you · The app, not the model, decides scores, limits, follow-ups and every state transition (deterministic scoring, documented in ADRs) · Six adaptive interview strategies (progressive, deep-dive, practical, conceptual, mixed, resume-based) with a plain-language reason for every decision · Offline resume intelligence — skills with evidence-based confidence, questions tied to real resume lines, prompt-injection text flagged and never followed · Voice questions and offline Whisper spoken answers · Optional Groq cloud mode (off until you switch it on) for machines without a GPU · Dashboard, score trends, weakest-topic practice, PDF/Markdown/JSON exports · Persisted interview state machine with compare-and-set transitions — a double click or replayed request changes nothing · 746 backend tests at 94% line coverage, CI on macOS, Windows and Linux, MIT licensed
+
+**Stack:** Python · FastAPI · Pydantic · SQLite · Ollama (qwen3.5:4b) · faster-whisper · ReportLab · React 19 · TypeScript · Vite · Vitest
+
+**Architecture:**
+```
+React UI → FastAPI → State Machine → Evaluator → LLM Gateway → Ollama (local) | Groq (opt-in)
+```
+
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github)](https://github.com/Yuvakunaal/local-ai-interviewer)
+[![Latest Release](https://img.shields.io/badge/Release-v2.0.2-6366f1?style=flat-square)](https://github.com/Yuvakunaal/local-ai-interviewer/releases/latest)
+
+---
+
 ### 🔎 Repository File Count *(Launched)*
 
 A **browser-based GitHub repository analysis tool** that turns any public repository into an instant, structured overview — without cloning the repo, installing anything, or running a single local command.
@@ -187,6 +205,7 @@ My contribution focused on strengthening API reliability through **regression an
 | Project | What It Does | Stack Highlights | Status |
 |---|---|---|---|
 | **SQLumina** | Large-scale SQL learning SaaS platform — structured lessons, practice environments, progressive challenges | SaaS · Full-Stack | 🟡 Deployed · Pre-Launch |
+| **Local AI Interviewer** | Private, local-first mock interview app — evidence-checked grading, adaptive follow-ups, offline resume intelligence, voice answers, scored reports. Runs on your own machine via Ollama | Python · FastAPI · SQLite · Ollama · React · TypeScript | 🟢 Open Source · Released |
 | **Repository File Count** | Browser-based GitHub repository analyzer — file composition, code/non-code breakdown, repo health, PR analytics & search | TanStack Start · TypeScript · React · Tailwind CSS · GitHub API | 🟢 Live |
 | **AI Interview SDK** | Open-source SDK for embedding AI-scored, rubric-based interviews into any app — client & server modes, fairness testing built in | TypeScript · React · OpenAI/Claude/Gemini/Deepgram/ElevenLabs | 🟢 Published on npm |
 | **Habit Ink** | Minimal habit tracking SaaS — clarity-first design, real daily consistency | SaaS · Full-Stack | 🟢 Live |
